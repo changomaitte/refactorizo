@@ -1,13 +1,21 @@
-    {
-      "name"        : "worker",
-      "script"      : "./index.js",
-      "instances"   : 1,
-      "merge_logs"  : true,
-      "log_date_format" : "YYYY-MM-DD HH:mm Z",
-      "watch": true,
-      "watch_options": {
-        "followSymlinks": true,
-        "usePolling"   : true,
-        "interval"    : 5
-      }
-    }
+ 
+lass persona(): # clase persona
+    def __init__(self,nombre,edad): # se inicializa con nombre y edad
+        self.nombre=nombre
+        self.edad=edad
+
+
+
+lass persona(): # clase persona
+    def __init__(self,nombre,edad): # se inicializa con nombre y edad
+        self.nombre=nombre
+        self.edad=edad
+
+
+
+# refactorice el siguente codigo 
+# medinate expresiones aumentadas https://zephyrnet.com/es/10-formas-de-refactorizar-su-c%C3%B3digo-Python/
+count=0
+for i in  range(20):
+  count+=1
+print(count)
